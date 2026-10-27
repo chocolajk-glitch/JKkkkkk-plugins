@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "github": {
+      "url": "https://api.githubcopilot.com/mcp/",
+      "bearer_token_env_var": "GITHUB_PAT_TOKEN",
+      "type": "http"
+    },
+    "tavily": {
+      "url": "https://mcp.tavily.com/mcp",
+      "bearer_token_env_var": "TAVILY_API_KEY",
+      "type": "http"
+    },
+    "openaiDeveloperDocs": {
+      "url": "https://developers.openai.com/mcp",
+      "type": "http"
+    },
+    "rea": {
+      "command": "cmd.exe",
+      "args": [
+        "/d",
+        "/c",
+        "npx",
+        "-y",
+        "rea-agents@6.7.0",
+        "mcp"
+      ],
+      "startup_timeout_sec": 30,
+      "tool_timeout_sec": 450,
+      "type": "stdio"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+# Optional snapshot. Review and merge manually; installing the plugin does not apply this file.
+# Model availability and gateway reachability depend on the target machine/account.
+model = "gpt-6.1-sol"
+model_context_window = 1050000
+model_auto_compact_token_limit = 900000
+model_reasoning_effort = "medium"
+personality = "pragmatic"
+model_provider = "codex-lb"
+model_reasoning_summary = "detailed"
+
+[model_providers."codex-lb"]
+"name" = "OpenAI"
+"base_url" = "https://codex-gateway.example.com/backend-api/codex"
+"wire_api" = "responses"
+"supports_websockets" = true
+"requires_openai_auth" = false
+
+[desktop]
+"followUpQueueMode" = "queue"
+"show-context-window-usage" = true
+"enabled-reasoning-efforts" = ["low", "medium", "high", "xhigh", "ultra", "max"]
+"localeOverride" = "zh-CN"
+"conversationDetailMode" = "STEPS_COMMANDS"
+"appearanceTheme" = "system"
+"projectlessWorkspaceRoot" = "D:\\Codex"
+"avatar-overlay-pet-visible" = false
+"toys-confetti-enabled" = false
+
+[features]
+"js_repl" = false
+"memories" = true
+
+[memories]
+"generate_memories" = true
+"use_memories" = true

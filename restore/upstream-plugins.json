@@ -1,0 +1,56 @@
+{
+  "captured_date": "2026-10-27",
+  "plugins": {
+    "documents@openai-primary-runtime": {
+      "enabled": true
+    },
+    "pdf@openai-primary-runtime": {
+      "enabled": true
+    },
+    "spreadsheets@openai-primary-runtime": {
+      "enabled": true
+    },
+    "presentations@openai-primary-runtime": {
+      "enabled": true
+    },
+    "template-creator@openai-primary-runtime": {
+      "enabled": true
+    },
+    "browser@openai-bundled": {
+      "enabled": true
+    },
+    "visualize@openai-bundled": {
+      "enabled": true
+    },
+    "postman@postman": {
+      "enabled": true
+    },
+    "computer-use@openai-bundled": {
+      "enabled": true
+    },
+    "openviking-memory@openviking": {
+      "enabled": false
+    },
+    "codex-app-tools@openai-bundled": {
+      "enabled": true
+    },
+    "unified-computer-use@openai-bundled": {
+      "enabled": true
+    }
+  },
+  "git_marketplaces": {
+    "postman": {
+      "last_updated": "2026-10-22T01:01:16Z",
+      "last_revision": "46deb13e6c0efcaa05980791ac0545cd8c62bf77",
+      "source_type": "git",
+      "source": "https://github.com/postmanlabs/postman-plugin.git"
+    },
+    "openviking": {
+      "last_updated": "2026-10-21T05:08:36Z",
+      "last_revision": "898f449f6e7528ebd35a7fbceaba988fada0e922",
+      "source_type": "git",
+      "source": "https://docs.openviking.net/dl/plugins/memory-plugins.git"
+    }
+  },
+  "note": "Restore from original sources; built-in runtime/plugin caches are not redistributed. Keep openviking-memory disabled."
+}

@@ -1,0 +1,20 @@
+{
+  "name": "edy-personal",
+  "interface": {
+    "displayName": "EDY Personal"
+  },
+  "plugins": [
+    {
+      "name": "edy-workbench",
+      "source": {
+        "source": "local",
+        "path": "./plugins/edy-workbench"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "captured_date": "2026-10-27",
+  "cli_version": "0.164.0",
+  "packaged_skills": [
+    "codebase-design",
+    "diagnosing-bugs",
+    "domain-modeling",
+    "grill-me",
+    "grill-with-docs",
+    "grilling",
+    "improve-codebase-architecture",
+    "lark-context",
+    "reverse-engineer-anything",
+    "setup-matt-pocock-skills",
+    "tdd",
+    "to-spec",
+    "to-tickets",
+    "wechat-context"
+  ],
+  "packaged_mcp": [
+    "github",
+    "tavily",
+    "openaiDeveloperDocs",
+    "rea"
+  ],
+  "adaptations": [
+    "grill-me: removed Claude frontmatter; existing Codex explicit-only policy retained",
+    "grill-me: Codex-compatible skill loading/frontmatter",
+    "grill-with-docs: removed Claude frontmatter; existing Codex explicit-only policy retained",
+    "grill-with-docs: Codex-compatible skill loading/frontmatter",
+    "improve-codebase-architecture: removed Claude frontmatter; existing Codex explicit-only policy retained",
+    "improve-codebase-architecture: Codex-compatible skill loading/frontmatter",
+    "setup-matt-pocock-skills: removed Claude frontmatter; existing Codex explicit-only policy retained",
+    "setup-matt-pocock-skills: Codex-compatible skill loading/frontmatter",
+    "tdd: Codex-compatible skill loading/frontmatter",
+    "to-spec: removed Claude frontmatter; existing Codex explicit-only policy retained",
+    "to-spec: Codex-compatible skill loading/frontmatter",
+    "to-tickets: removed Claude frontmatter; existing Codex explicit-only policy retained",
+    "to-tickets: Codex-compatible skill loading/frontmatter",
+    "auto_commit.py: checkpoint state defaults to PLUGIN_DATA/git-checkpoints; CODEX_GIT_HOOK_STATE still overrides"
+  ],
+  "external_dependencies": [
+    "Python 3 on PATH",
+    "Git on PATH for checkpoints",
+    "Node.js/npm/npx for rea-agents@6.7.0",
+    "D:/Tools/lark-cli/lark-cli.ps1 with separate sign-in",
+    "D:/Tools/wechat-cli-local/wechat-cli.cmd with separate local account/cache setup"
+  ],
+  "excluded": {
+    "node_repl": "Desktop-owned runtime paths and per-session IPC must be provisioned by the desktop app.",
+    "system_skills": "Provided by Codex; not personal skills.",
+    "upstream_plugins": "Restore list supplied instead of copying proprietary or separately maintained packages.",
+    "credentials": "No auth files, OAuth tokens, environment values or WeChat keys.",
+    "personal_data": "No chat history, memories, automations, database/cache, trusted-project list or hook trust hashes.",
+    "global_AGENTS": "Existing user-level AGENTS.md is empty."
+  },
+  "source_files": [
+    {
+      "source": "<original-codex-skills>/codebase-design/DEEPENING.md",
+      "path": "plugins/edy-workbench/skills/codebase-design/DEEPENING.md",
+      "source_sha256": "f3dd099ce99289bd213914d8ee3e2429b78309c3957ca4583f7659551b1d53c1"
+    },
+    {
+      "source": "<original-codex-skills>/codebase-design/DESIGN-IT-TWICE.md",
+      "path": "plugins/edy-workbench/skills/codebase-design/DESIGN-IT-TWICE.md",
+      "source_sha256": "8e740bf98446dbd4dfdc132ac4346d9a7eedaf93de6a495889171cf7f99f16bd"
+    },
+    {
+      "source": "<original-codex-skills>/codebase-design/SKILL.md",
+      "path": "plugins/edy-workbench/skills/codebase-design/SKILL.md",
+      "source_sha256": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2"
+    },
+    {
+      "source": "<original-codex-skills>/codebase-design/agents/openai.yaml",
+      "path": "plugins/edy-workbench/skills/codebase-design/agents/openai.yaml",
+      "source_sha256": "edebc9e4fcfe102114012575eaa9600b9b5fd08c311664f389c36e7bc717740f"
+    },
+    {
+      "source": "<original-codex-skills>/diagnosing-bugs/SKILL.md",
+      "path": "plugins/edy-workbench/skills/diagnosing-bugs/SKILL.md",
+      "source_sha256": "77f3cf31bc99b2f49af943222526531fcc9fc41d047626d3640e875e85af3e84"
+    },
+    {
+      "source": "<original-codex-skills>/diagnosing-bugs/agents/openai.yaml",
+      "path": "plugins/edy-workbench/skills/diagnosing-bugs/agents/openai.yaml",
+      "source_sha256": "3e430dbe4334a87597488c060cb3dc3786bb00c9182877d6f5ec41f62490e90b"
+    },
+    {
+      "source": "<original-codex-skills>/diagnosing-bugs/scripts/hitl-loop.template.sh",
+      "path": "plugins/edy-workbench/skills/diagnosing-bugs/scripts/hitl-loop.template.sh",
+      "source_sha256": "35103539fc36873eea36074769ad454f9379d6fc8b2dc0e26ce987fd3bfe5503"
+    },
+    {
+      "source": "<original-codex-skills>/domain-modeling/ADR-FORMAT.md",
+      "path": "plugins/edy-workbench/skills/domain-modeling/ADR-FORMAT.md",
+      "source_sha256": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0"
+    },
+    {
+      "source": "<original-codex-skills>/domain-modeling/CONTEXT-FORMAT.md",
+      "path": "plugins/edy-workbench/skills/domain-modeling/CONTEXT-FORMAT.md",
+      "source_sha256": "17ab16ce783e4d2801ee52fd9acdf550cbf44de65ae76797a93943bbedf22a13"
+    },
+    {
+      "source": "<original-codex-skills>/domain-modeling/SKILL.md",
+      "path": "plugins/edy-workbench/skills/domain-modeling/SKILL.md",
+      "source_sha256": "327a2b50620e2fd70abc6893cd6965e76b20f8d0adb0dc2c8d5eb3845efb643e"
+    },
+    {
+      "source": "<original-codex-skills>/domain-modeling/agents/openai.yaml",
+      "path": "plugins/edy-workbench/skills/domain-modeling/agents/openai.yaml",
+      "source_sha256": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b"
+    },
+    {
+      "source": "<original-codex-skills>/grill-me/SKILL.md",
+      "path": "plugins/edy-workbench/skills/grill-me/SKILL.md",
+      "source_sha256": "caaf8b8de1684f96e26b28f3c29189db5c89cce4b73e1c93d86164f66ef88637"
+    },
+    {
+      "source": "<original-codex-skills>/grill-me/agents/openai.yaml",
+      "path": "plugins/edy-workbench/skills/grill-me/agents/openai.yaml",
+      "source_sha256": "c061e39c3e0f9d865fb1b97556d485704af2a8a58f4b8221a8917a5c2074a32b"
+    },
+    {
+      "source": "<original-codex-skills>/grill-with-docs/SKILL.md",
+      "path": "plugins/edy-workbench/skills/grill-with-docs/SKILL.md",
+      "source_sha256": "7de372c13488f1ee96cc11cd8907b56b6809cc93eef776eeddd37de6b6cbe3fe"
+    },
+    {
+      "source": "<original-codex-skills>/grill-with-docs/agents/openai.yaml",
+      "path": "plugins/edy-workbench/skills/grill-with-docs/agents/openai.yaml",
+      "source_sha256": "94cd0ab161fb468a836349f5ed482ba58ce8e709a05c57ce533d739dbd35cca9"
+    },
+    {
+      "source": "<original-codex-skills>/grilling/SKILL.md",
+      "path": "plugins/edy-workbench/skills/grilling/SKILL.md",
+      "source_sha256": "10ff989e7498b23b5acb49d5048f11dcd906757d2f79c5cdf8a00001381296f2"
+    },
+    {
+      "source": "<original-codex-skills>/grilling/agents/openai.yaml",
+      "path": "plugins/edy-workbench/skills/grilling/agents/openai.yaml",
+      "source_sha256": "1411d7df7d99b7e621a1ff8283c8133cc2464be63d064e52d8ce169c6800ee9b"
+    },
+    {
+      "source": "<original-codex-skills>/improve-codebase-architecture/HTML-REPORT.md",
+      "path": "plugins/edy-workbench/skills/improve-codebase-architecture/HTML-REPORT.md",
+      "source_sha256": "581e8bb5a521e46bbda8ca7e19b15948bed882187108092ebb90c62513b77528"
+    },
+    {
+      "source": "<original-codex-skills>/improve-codebase-architecture/SKILL.md",
+      "path": "plugins/edy-workbench/skills/improve-codebase-architecture/SKILL.md",
+      "source_sha256": "d1ac25511a936ff4250a48dbcefda363837d6bb9321b3cba73df99fa37270a75"
+    },
+    {
+      "source": "<original-codex-skills>/improve-codebase-architecture/agents/openai.yaml",
+      "path": "plugins/edy-workbench/skills/improve-codebase-architecture/agents/openai.yaml",
+      "source_sha256": "c8cb20f68ebf0edb4e497bc11ae5fcaa196004e661cd189015b04f4109ced7f1"
+    },
+    {
+      "source": "<original-codex-skills>/lark-context/SKILL.md",
+      "path": "plugins/edy-workbench/skills/lark-context/SKILL.md",
+      "source_sha256": "502165b7aef3c682301a70d962289a5649137e506c0b9c4b74754d99487d265c"
+    },
+    {
+      "source": "<original-codex-skills>/setup-matt-pocock-skills/domain.md",
+      "path": "plugins/edy-workbench/skills/setup-matt-pocock-skills/domain.md",
+      "source_sha256": "edc6d6131fdffc4b7135704f5262124fc43355c95f61b7399dc5a4db643e28ca"
+    },
+    {
+      "source": "<original-codex-skills>/setup-matt-pocock-skills/issue-tracker-github.md",
+      "path": "plugins/edy-workbench/skills/setup-matt-pocock-skills/issue-tracker-github.md",
+      "source_sha256": "afd6852a80185217bd28aa5cbe456bef1e85be25be7bd1fba382d5b8ee428325"
+    },
+    {
+      "source": "<original-codex-skills>/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+      "path": "plugins/edy-workbench/skills/setup-matt-pocock-skills/issue-tracker-gitlab.md",
+      "source_sha256": "ea175f73d193b3f55819c0ed9bbccf6ee0e70ad8f928e3d7607596c53380acd6"
+    },
+    {
+      "source": "<original-codex-skills>/setup-matt-pocock-skills/issue-tracker-local.md",
+      "path": "plugins/edy-workbench/skills/setup-matt-pocock-skills/issue-tracker-local.md",
+      "source_sha256": "7dcda20a2eb4bdc89b95d1143423c0691309921cadae3132e6424f371030506e"
+    },
+    {
+      "source": "<original-codex-skills>/setup-matt-pocock-skills/SKILL.md",
+      "path": "plugins/edy-workbench/skills/setup-matt-pocock-skills/SKILL.md",
+      "source_sha256": "2bcd89e97777cdb705914424e39c97d5db524c8eb4eafac8120778a07774f0ec"
+    },
+    {
+      "source": "<original-codex-skills>/setup-matt-pocock-skills/triage-labels.md",
+      "path": "plugins/edy-workbench/skills/setup-matt-pocock-skills/triage-labels.md",
+      "source_sha256": "4f53c9b40ce2651e3611aa090eaedbd6dbc9b71ef8c5f7e65eac0d8263190d0d"
+    },
+    {
+      "source": "<original-codex-skills>/setup-matt-pocock-skills/agents/openai.yaml",
+      "path": "plugins/edy-workbench/skills/setup-matt-pocock-skills/agents/openai.yaml",
+      "source_sha256": "9527de0110541c45712319025155aeab8dc7d77c6ed6e5e83271bab1851ab939"
+    },
+    {
+      "source": "<original-codex-skills>/tdd/mocking.md",
+      "path": "plugins/edy-workbench/skills/tdd/mocking.md",
+      "source_sha256": "3ceb807fdf4a47d6a93d4d9a891e5ba6d362a6247bd08adc451feebfc17361ef"
+    },
+    {
+      "source": "<original-codex-skills>/tdd/SKILL.md",
+      "path": "plugins/edy-workbench/skills/tdd/SKILL.md",
+      "source_sha256": "cb01f66bebfaa25fa1f88e6b7e769cd9fd9f35b1120b8563749820738814c927"
+    },
+    {
+      "source": "<original-codex-skills>/tdd/tests.md",
+      "path": "plugins/edy-workbench/skills/tdd/tests.md",
+      "source_sha256": "859f9e592c188fda4fc7277dd180e4ce9c7a2e13f6efe1f6f29eccc9d28c106a"
+    },
+    {
+      "source": "<original-codex-skills>/tdd/agents/openai.yaml",
+      "path": "plugins/edy-workbench/skills/tdd/agents/openai.yaml",
+      "source_sha256": "ea6f01cf1b8c06a4b0f5b649d74b1b8ce8685e72af1b38d70d877693e092af0b"
+    },
+    {
+      "source": "<original-codex-skills>/to-spec/SKILL.md",
+      "path": "plugins/edy-workbench/skills/to-spec/SKILL.md",
+      "source_sha256": "43ad9cf318e5e7d3d1fa360253a37021796dc87a0c2e595ad262661a10f85088"
+    },
+    {
+      "source": "<original-codex-skills>/to-spec/agents/openai.yaml",
+      "path": "plugins/edy-workbench/skills/to-spec/agents/openai.yaml",
+      "source_sha256": "1c5b4d1e3d8e52287ef19cc2742fdbbfae1914ac75d33af3e4c8174f08cc55bb"
+    },
+    {
+      "source": "<original-codex-skills>/to-tickets/SKILL.md",
+      "path": "plugins/edy-workbench/skills/to-tickets/SKILL.md",
+      "source_sha256": "5c9fba69845c2519b9b35b9af42ae5142c21f8ca15ac2123dc2722002c8058ae"
+    },
+    {
+      "source": "<original-codex-skills>/to-tickets/agents/openai.yaml",
+      "path": "plugins/edy-workbench/skills/to-tickets/agents/openai.yaml",
+      "source_sha256": "21bc6215fffcd7614e9f772bb1760e87cc5fc7dcc707e7d282bc9414267a6090"
+    },
+    {
+      "source": "<original-codex-skills>/wechat-context/SKILL.md",
+      "path": "plugins/edy-workbench/skills/wechat-context/SKILL.md",
+      "source_sha256": "75cba91d581ca5b6bfcfd0778e22eb177b69458336699c25d712b8ab7103d3ef"
+    },
+    {
+      "source": "<original-agent-skills>/reverse-engineer-anything/SKILL.md",
+      "path": "plugins/edy-workbench/skills/reverse-engineer-anything/SKILL.md",
+      "source_sha256": "fbcd39d6abe803cf7aa49c1880815bc8e22ba2af87a23681944f687bb7629eb1"
+    },
+    {
+      "source": "<original-agent-skills>/reverse-engineer-anything/references/android-applications.md",
+      "path": "plugins/edy-workbench/skills/reverse-engineer-anything/references/android-applications.md",
+      "source_sha256": "67a9237d76a5b736640c6404f5e1fe01d83369848142feb7e11d78f4a5e62732"
+    },
+    {
+      "source": "<original-agent-skills>/reverse-engineer-anything/references/connection-and-recovery.md",
+      "path": "plugins/edy-workbench/skills/reverse-engineer-anything/references/connection-and-recovery.md",
+      "source_sha256": "a33760c84ae100f6ffd27d666e515956c5014ac33a6ee2414807833ae666a2b1"
+    },
+    {
+      "source": "<original-agent-skills>/reverse-engineer-anything/references/evidence-workflows.md",
+      "path": "plugins/edy-workbench/skills/reverse-engineer-anything/references/evidence-workflows.md",
+      "source_sha256": "2bdee98a843d018cf850c706111bb74c459ba8640da00799e9208122e4d5ab80"
+    },
+    {
+      "source": "<original-agent-skills>/reverse-engineer-anything/references/javascript-applications.md",
+      "path": "plugins/edy-workbench/skills/reverse-engineer-anything/references/javascript-applications.md",
+      "source_sha256": "aaa78502a3e95268f6269e75f373908045291fedf6ddd106001555ed06bb2bf6"
+    },
+    {
+      "source": "<original-agent-skills>/reverse-engineer-anything/references/native-and-artifacts.md",
+      "path": "plugins/edy-workbench/skills/reverse-engineer-anything/references/native-and-artifacts.md",
+      "source_sha256": "18b8828aec6476be03ca92bdb9506c47cc9ef8c1415c37d33e4af2f8c55cf8f9"
+    },
+    {
+      "source": "<original-agent-skills>/reverse-engineer-anything/references/runtime-observation.md",
+      "path": "plugins/edy-workbench/skills/reverse-engineer-anything/references/runtime-observation.md",
+      "source_sha256": "fea85e2005a8fd1c86a946eeede24c20e57592a1deb36576b45216e9854803c8"
+    }
+  ],
+  "hook_source_sha256": "9a44ced44556e37e1333f30ee483ba2cc48172d55a274afc4adc1ae1178d8f4a",
+  "publication_note": "Personal username paths and private model gateway address were removed for public distribution. Original source hashes are retained."
+}

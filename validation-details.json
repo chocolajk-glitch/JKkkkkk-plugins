@@ -1,0 +1,100 @@
+{
+  "skill_validation": [
+    {
+      "name": "codebase-design",
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "diagnosing-bugs",
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "domain-modeling",
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "grill-me",
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "grill-with-docs",
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "grilling",
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "lark-context",
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "reverse-engineer-anything",
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "tdd",
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "to-spec",
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "to-tickets",
+      "valid": true,
+      "message": "Skill is valid!"
+    },
+    {
+      "name": "wechat-context",
+      "valid": true,
+      "message": "Skill is valid!"
+    }
+  ],
+  "explicit_only_preserved": [
+    "grill-me",
+    "grill-with-docs",
+    "improve-codebase-architecture",
+    "setup-matt-pocock-skills",
+    "to-spec",
+    "to-tickets"
+  ],
+  "hook_checks": [
+    "code change creates local checkpoint",
+    "commit contains expected source",
+    "index clean after commit",
+    "repeated Stop is idempotent",
+    "read-only request creates no baseline"
+  ],
+  "credential_literal_check": "PASS (configured credential environment values available to this process; no values logged)",
+  "original_skill_files_unchanged": true,
+  "modified_packaged_files": [
+    "plugins/edy-workbench/skills/grill-me/SKILL.md",
+    "plugins/edy-workbench/skills/grill-with-docs/SKILL.md",
+    "plugins/edy-workbench/skills/improve-codebase-architecture/SKILL.md",
+    "plugins/edy-workbench/skills/setup-matt-pocock-skills/SKILL.md",
+    "plugins/edy-workbench/skills/tdd/SKILL.md",
+    "plugins/edy-workbench/skills/to-spec/SKILL.md",
+    "plugins/edy-workbench/skills/to-tickets/SKILL.md"
+  ]
+}

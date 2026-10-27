@@ -1,0 +1,40 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"${PLUGIN_ROOT}/scripts/auto_commit.py\"",
+            "timeout": 180,
+            "statusMessage": "Recording Git baseline"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"${PLUGIN_ROOT}/scripts/auto_commit.py\"",
+            "timeout": 180,
+            "statusMessage": "Checking local Git checkpoint"
+          }
+        ]
+      }
+    ],
+    "Interrupt": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"${PLUGIN_ROOT}/scripts/auto_commit.py\"",
+            "timeout": 3,
+            "statusMessage": "Checking local Git checkpoint"
+          }
+        ]
+      }
+    ]
+  }
+}

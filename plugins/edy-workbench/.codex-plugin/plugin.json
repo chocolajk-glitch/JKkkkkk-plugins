@@ -1,0 +1,16 @@
+{
+  "name": "edy-workbench",
+  "version": "1.0.0",
+  "description": "EDY personal engineering skills, MCP connections and local Git checkpoint hooks. Windows desktop setup; credentials and upstream plugins remain external.",
+  "author": {
+    "name": "EDY"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "EDY Workbench",
+    "shortDescription": "个人工程 Skills、MCP 与 Git 检查点",
+    "category": "Developer Tools"
+  }
+}

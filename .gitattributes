@@ -1,0 +1,2 @@
+# Preserve exact packaged bytes so checksum verification works across platforms.
+* -text
